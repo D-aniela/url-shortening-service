@@ -1,0 +1,9 @@
+GET http://localhost:5000/api/short
+
+###
+POST http://localhost:5000/api/short
+Content-Type: application/json
+
+{
+  "origUrl": "https://www.instagram.com"
+}
